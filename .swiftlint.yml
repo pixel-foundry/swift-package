@@ -31,6 +31,8 @@ opt_in_rules:
   - untyped_error_in_catch
   - vertical_parameter_alignment_on_call
   - yoda_condition
+indentation_width:
+  include_comments: false
 line_length:
   ignores_urls: true
   ignores_comments: true
