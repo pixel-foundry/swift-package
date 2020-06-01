@@ -38,7 +38,8 @@ line_length:
   ignores_comments: true
   ignores_interpolated_strings: true
 excluded:
-  - Tests
+  - Sources/Tests
+  - Sources/LinuxMain.swift
 cyclomatic_complexity:
   ignores_case_statements: true
 indentation: tabs

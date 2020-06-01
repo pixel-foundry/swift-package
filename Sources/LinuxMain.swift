@@ -1,4 +1,6 @@
 import XCTest
-import Tests
 
-XCTMain([Tests.allTests])
+
+var tests = [XCTestCaseEntry]()
+
+XCTMain(tests)
