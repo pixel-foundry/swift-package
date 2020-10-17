@@ -1,6 +1,9 @@
 disabled_rules:
+  - closure_parameter_position
   - identifier_name
 opt_in_rules:
+  - anyobject_protocol
+  - attributes
   - closure_end_indentation
   - closure_parameter_position
   - closure_spacing
@@ -16,7 +19,6 @@ opt_in_rules:
   - fallthrough
   - first_where
   - flatmap_over_map_reduce
-  - indentation_width
   - legacy_random
   - literal_expression_end_indentation
   - lower_acl_than_parent
@@ -37,6 +39,11 @@ line_length:
   ignores_urls: true
   ignores_comments: true
   ignores_interpolated_strings: true
+function_body_length:
+  warning: 100
+type_body_length:
+  warning: 300
+  error: 400
 excluded:
   - Sources/Tests
   - Sources/LinuxMain.swift
