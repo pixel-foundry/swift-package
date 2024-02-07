@@ -1,4 +1,4 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -8,6 +8,6 @@ let package = Package(
 	],
 	targets: [
 		.target(name: "SwiftPackage"),
-		.testTarget(name: "Tests", dependencies: ["SwiftPackage"])
+		.testTarget(name: "SwiftPackageTests", dependencies: ["SwiftPackage"])
 	]
 )

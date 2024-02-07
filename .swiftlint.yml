@@ -39,10 +39,14 @@ excluded:
   - .swiftpm
 indentation_width:
   include_comments: false
+  include_compiler_directives: false
 line_length:
   ignores_urls: true
   ignores_comments: true
   ignores_interpolated_strings: true
+nesting:
+  type_level: 3
+  function_level: 4
 function_body_length:
   warning: 100
 type_body_length:
